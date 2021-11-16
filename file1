@@ -1,0 +1,37 @@
+// Converting the given image to an object
+
+var memorySummary = [{
+	"Maximum_Capacity" : "2048 MBytes",
+	"Maximum_Memory_Module_Size" : "4096 MBytes",
+	"Memory_Slots" : 4,
+	"Error_Correction" : "None",
+	"DRAM_Frequency" : "199.0 MHz",
+	"Memory_Timings" : "3-3-3-3 (CL-RCD-RP-RAS)"
+}, {
+    "Device_Locator" : [{
+        "Manufacturer" : "Hyundai Electronics",
+        "Part_Number" : "HYMD264 646D8J-D43",
+        "Serial_Number" : "FFFF7240",
+        "Capacity" : "512 MBytes",
+        "Memory_Type" : "DDR (PC3200)",
+        "Speed" : "200 MHz",
+        "Supported_Frequencies" : "133 MHz,166 MHz,200 MHz",
+        "Memory_Timings_1":"2-2-2-6-0 at 133 MHz, at 2",
+        "Memory_Timings_2":"2-3-3-7-0 at 166 MHz, at 2",
+        "Memory_Timings_3":"3-3-3-8-0 at 200 MHz, at 2",
+        "Data_Width" : "64 bits",
+        "Manufacturing_Data" : "2005, Week 39",
+        "EPP_SPD_Support" : "No",
+        "XMP_SPD_Support" : "No"
+        
+    }]
+}];
+
+// Debugging problem 1
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+ 
+for (var i = 0; i < numsArr.length; i++) {
+ new_string += numsArr[i] 
+}
+console.log(new_string);
